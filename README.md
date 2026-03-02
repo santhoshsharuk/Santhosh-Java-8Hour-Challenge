@@ -263,76 +263,51 @@ I will update this README file every day after learning.
 > Works perfectly if you convert this README into an HTML page.
 
 ```html
+<!DOCTYPE html>
+<html>
+<head>
 <style>
 body {
+    background: #0f172a;
     font-family: Arial, sans-serif;
-    background-color: #0f172a;
-    color: #e2e8f0;
-}
-
-h1, h2, h3 {
-    color: #38bdf8;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-table, th, td {
-    border: 1px solid #334155;
-}
-
-th {
-    background-color: #1e293b;
-    padding: 10px;
-}
-
-td {
-    padding: 8px;
-    text-align: center;
-}
-
-.badge {
-    padding: 5px 10px;
-    border-radius: 6px;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.completed {
-    background-color: #16a34a;
     color: white;
+    padding: 40px;
 }
 
-.pending {
-    background-color: #eab308;
-    color: black;
+.progress-container {
+    width: 100%;
+    background: #1e293b;
+    border-radius: 30px;
+    overflow: hidden;
 }
 
 .progress-bar {
-    width: 100%;
-    background-color: #1e293b;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 10px 0;
+    height: 25px;
+    width: 0;
+    background: linear-gradient(90deg, #38bdf8, #6366f1);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    animation: loadProgress 2s ease forwards;
 }
 
-.progress-fill {
-    height: 20px;
-    width: 6%;
-    background-color: #38bdf8;
-    text-align: center;
-    color: black;
-    font-size: 12px;
-    line-height: 20px;
+@keyframes loadProgress {
+    from { width: 0; }
+    to { width: 60%; }  /* Change percentage here */
 }
 </style>
+</head>
+<body>
 
-<div class="progress-bar">
-  <div class="progress-fill">6%</div>
+<h2>Java Course Progress</h2>
+
+<div class="progress-container">
+  <div class="progress-bar">60%</div>
 </div>
+
+</body>
+</html>
 ```
 
 ---
