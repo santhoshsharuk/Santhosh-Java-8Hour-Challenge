@@ -86,7 +86,7 @@ Status: ⏳ Pending
 | Day    | Time Planned | Time Completed | Topics                           | Status         |
 | ------ | ------------ | -------------- | -------------------------------- | -------------- |
 | Day 01 | 1 Hour       | 30 Minutes     | Java Intro, JDK/JVM, Hello World | 🟢completed    |
-| Day 02 | 1 Hour       |                | Variables & Data Types           |   Inprogress    |
+| Day 02 | 1 Hour       |1hour           | Variables & Data Types           |   Inprogress    |
 | Day 03 | 1 Hour       | 0              | Operators & Scanner              | ⏳ Pending      |
 | Day 04 | 1 Hour       | 0              | Condition Statements             | ⏳ Pending      |
 | Day 05 | 1 Hour       | 0              | Loops                            | ⏳ Pending      |
