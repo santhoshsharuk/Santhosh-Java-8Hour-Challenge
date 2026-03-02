@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Learning Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <canvas class="hero-grid" id="heroGrid"></canvas>
+    <div class="hero-grain"></div>
+    <div class="hero-glow hero-glow--1"></div>
+    <div class="hero-glow hero-glow--2"></div>
+    <div class="hero-glow hero-glow--3"></div>
+
+    <!-- Floating code snippets -->
+    <div class="hero-float hero-float--1" aria-hidden="true">
+      <pre>System.out.println<br>("Hello World");</pre>
+    </div>
+    <div class="hero-float hero-float--2" aria-hidden="true">
+      <pre>int a = 10;<br>int b = 20;<br>int sum = a + b;</pre>
+    </div>
+    <div class="hero-float hero-float--3" aria-hidden="true">
+      <pre>if (age >= 18) {<br>  // eligible<br>}</pre>
+    </div>
+    <div class="hero-float hero-float--4" aria-hidden="true">
+      <pre>Scanner sc = new<br>Scanner(System.in);</pre>
+    </div>
+
+    <!-- Hero ring decoration -->
+    <div class="hero-ring hero-ring--1"></div>
+    <div class="hero-ring hero-ring--2"></div>
+
+    <div class="hero-inner">
+      <div class="hero-chip">
+        <span class="hero-chip-dot"></span>
+        <span>8-Day Challenge</span>
+        <span class="hero-chip-arrow">&rarr;</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-title-line hero-title-line--1">Java</span>
+        <span class="hero-title-line hero-title-line--2">Master Plan</span>
+      </h1>
+      <p class="hero-sub">
+        Learn Java in <strong>8 hours</strong> &mdash; one hour at a time.<br>
+        <span class="hero-sub-muted">Powered by Error Makes Clever</span>
+      </p>
+      <div class="hero-actions">
+        <a href="#progress" class="hero-cta">
+          <span>View Progress</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </a>
+        <a href="https://youtu.be/kGxSyqKbzsc?si=83haiE_n8WAlpx_r" target="_blank" class="hero-cta hero-cta--ghost">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          <span>Watch Course</span>
+        </a>
+      </div>
+      <div class="hero-badges">
+        <span class="hero-badge">&#9749; Java</span>
+        <span class="hero-badge">&#128218; 8 Hours</span>
+        <span class="hero-badge">&#128293; Daily</span>
+        <span class="hero-badge">&#127919; Beginner</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── STATS STRIP ── -->
+  <section class="stats-strip" id="progress">
+    <div class="stat-pill glass">
+      <div class="stat-icon">&#128218;</div>
+      <div class="stat-body">
+        <span class="stat-number" data-target="6">0</span><span class="stat-unit">%</span>
+        <span class="stat-label">Completed</span>
+      </div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="--w:6%"></div></div>
+    </div>
+    <div class="stat-pill glass">
+      <div class="stat-icon">&#128293;</div>
+      <div class="stat-body">
+        <span class="stat-number" data-target="1">0</span><span class="stat-unit"> Day</span>
+        <span class="stat-label">Current Streak</span>
+      </div>
+    </div>
+    <div class="stat-pill glass">
+      <div class="stat-icon">&#9201;</div>
+      <div class="stat-body">
+        <span class="stat-number" data-target="0">0</span><span class="stat-unit">.5 / 8 hrs</span>
+        <span class="stat-label">Hours Logged</span>
+      </div>
+    </div>
+    <div class="stat-pill glass">
+      <div class="stat-icon">&#127919;</div>
+      <div class="stat-body">
+        <span class="stat-number" data-target="8">0</span><span class="stat-unit"> Days</span>
+        <span class="stat-label">Target Goal</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VIDEO ── -->
+  <section class="section video-section">
+    <div class="section-header">
+      <span class="section-chip">Course</span>
+      <h2>Watch the Full Course</h2>
+      <p class="section-desc">8-Hour Java Full Course by Error Makes Clever on YouTube</p>
+    </div>
+    <div class="video-card glass">
+      <a href="https://youtu.be/kGxSyqKbzsc?si=83haiE_n8WAlpx_r" target="_blank" class="video-link" aria-label="Play course video">
+        <img src="https://img.youtube.com/vi/kGxSyqKbzsc/maxresdefault.jpg" alt="Java Full Course" class="video-thumb" loading="lazy">
+        <div class="play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── DAILY PROGRESS ── -->
+  <section class="section days-section">
+    <div class="section-header">
+      <span class="section-chip">Progress</span>
+      <h2>Daily Tracker</h2>
+      <p class="section-desc">Click a day to explore topics, notes & code</p>
+    </div>
+    <div class="day-tabs-wrap">
+      <div class="day-tabs" id="dayTabs"></div>
+    </div>
+    <div class="day-content" id="dayContent"></div>
+  </section>
+
+  <!-- ── ROADMAP ── -->
+  <section class="section roadmap-section">
+    <div class="section-header">
+      <span class="section-chip">Roadmap</span>
+      <h2>8-Hour Breakdown</h2>
+      <p class="section-desc">One hour at a time &mdash; master Java step by step</p>
+    </div>
+    <div class="roadmap-timeline" id="roadmap"></div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-quote">"Error Makes You Clever" &mdash; Keep Learning Daily</p>
+      <p class="footer-copy">&copy; 2026 Java Learning Tracker</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
