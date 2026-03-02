@@ -254,7 +254,7 @@ I will update this README file every day after learning.
 
 ## 🚀 Course Progress
 
-![Progress Bar](https://progress-bar.dev/6/?scale=100&title=Java%20Course&width=500&color=babaca&suffix=%25)
+![Java Progress](https://img.shields.io/badge/Java_Course-6%25_Completed-0A66C2?style=for-the-badge&logo=java&logoColor=white)
 
 ---
 
