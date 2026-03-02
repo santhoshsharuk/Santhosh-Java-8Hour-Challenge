@@ -60,4 +60,26 @@ Divide **d by e** and print the result.
 
 ---
 
+---
+
+## ✅ Question 4
+
+**Problem:**
+Get input for 3 variables: **Name, Score, and Department**.
+The user enters the score out of 100 marks. Convert the score to a value out of 10 and print it.
+
+### 📝 Sample Input
+
+John
+56
+Computer
+
+### 🖥 Sample Output
+
+My name is John
+My score is 5.6/10
+My department is Computer
+
+---
+
 💡 These questions are designed to practice basic input, output, arithmetic operations, and variable handling in Java.
