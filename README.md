@@ -252,6 +252,9 @@ I will update this README file every day after learning.
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?color=38BDF8&lines=Learning+Java+Daily;Error+Makes+You+Clever)
 ```
+## 📈 Learning Progress
+
+<img src="https://readme-progress-bar.vercel.app/api?progress=60&width=500" />
 
 ---
 
