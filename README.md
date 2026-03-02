@@ -257,57 +257,7 @@ I will update this README file every day after learning.
 
 ---
 
-# 🎨 Custom Styling (For HTML Preview)
-
-> ⚠ GitHub may not fully support internal CSS styling.
-> Works perfectly if you convert this README into an HTML page.
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
-    background: #0f172a;
-    font-family: Arial, sans-serif;
-    color: white;
-    padding: 40px;
-}
-
-.progress-container {
-    width: 100%;
-    background: #1e293b;
-    border-radius: 30px;
-    overflow: hidden;
-}
-
-.progress-bar {
-    height: 25px;
-    width: 0;
-    background: linear-gradient(90deg, #38bdf8, #6366f1);
-    border-radius: 30px;
-    text-align: center;
-    line-height: 25px;
-    font-weight: bold;
-    animation: loadProgress 2s ease forwards;
-}
-
-@keyframes loadProgress {
-    from { width: 0; }
-    to { width: 60%; }  /* Change percentage here */
-}
-</style>
-</head>
-<body>
-
-<h2>Java Course Progress</h2>
-
-<div class="progress-container">
-  <div class="progress-bar">60%</div>
-</div>
-
-</body>
-</html>
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=38BDF8&lines=Learning+Java+Daily;Error+Makes+You+Clever)
 ```
 
 ---
