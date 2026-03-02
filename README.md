@@ -8,19 +8,12 @@ Course Link: [https://youtu.be/kGxSyqKbzsc?si=83haiE_n8WAlpx_r](https://youtu.be
 
 ---
 
-# ▶️ Watch the Full Course Here
 
-> 📌 Embedded Video (Works on Websites & HTML Pages)
+## ▶️ Watch Full 8-Hour Java Course
 
-```html
-<iframe width="100%" height="400"
-    src="https://www.youtube.com/embed/kGxSyqKbzsc"
-    title="8 Hours Java Full Course - Error Makes Clever"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-</iframe>
-```
+[![Java Full Course](https://img.youtube.com/vi/kGxSyqKbzsc/maxresdefault.jpg)](https://youtu.be/kGxSyqKbzsc)
+
+Click the image above to watch on YouTube.
 
 📌 Note:
 
