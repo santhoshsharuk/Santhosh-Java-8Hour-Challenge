@@ -6,7 +6,7 @@ class cup{
 
     {
         String a="win";
-        if (a=="win")
+        if (a.equals("win"))
         {
             System.out.println("Ee Sala Cup Namadey");
         }
